@@ -23,6 +23,7 @@
 	background-color:silver;
 }
 
+
 .col4 {
 	margin:3px;
 	min-height:300px;
@@ -38,6 +39,13 @@
 }
 
 .col6 {
+	margin:3px;
+	min-height:300px;
+	text-align:center;
+	background-color:silver;
+}
+
+.col7 {
 	margin:3px;
 	min-height:300px;
 	text-align:center;
