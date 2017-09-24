@@ -1,0 +1,11 @@
+body{
+	/*background: url("../images/image1.jpg") no-repeat fixed;*/
+	background-color:#000;
+	/*width: 15%; */
+	/*height: auto;*/
+}
+
+.backgroundImg{
+	width: 100%;
+	height: 50%;
+}
