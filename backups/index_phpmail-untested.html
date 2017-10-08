@@ -1,4 +1,4 @@
-<!--?php 
+<?php 
 
 $name = $_POST['name'];
 $from = $_POST['email'];
@@ -13,7 +13,7 @@ $headers="From : <$from> \r\n ";
 
 
 
-?-->
+?>
 
 
 <!DOCTYPE html>
@@ -169,12 +169,12 @@ $headers="From : <$from> \r\n ";
 								<?php 
 									if (isset($_POST['submit']){
 									
-										//if(mail($to, $subject, $message, $headers)){
+										if(mail($to, $subject, $message, $headers)){
 											echo "Success"
-										//}
-										//else{
-										//	echo "Failed"
-										//}
+										}
+										else{
+											echo "Failed"
+										}
 									}
 								?>
 							</fieldset>
