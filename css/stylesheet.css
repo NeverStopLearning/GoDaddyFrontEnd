@@ -1,5 +1,43 @@
-.row {
-	/*background-color:lavender;*/
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+header{
+	/*background-image: url('../images/Background001.png');*/
+	background-image: url('../images/image1.jpg');
+	background-size: contain;
+	height: 100rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.row {
+	/ *background-color:lavender;* /
 }
 
 .col1 {
@@ -68,11 +106,11 @@ input {
 	
 }
 
-/*
+/ *
 div {
 	margin:5px;
 }
-*/
+* /
 
 h2 {
 	margin:3px;
@@ -86,3 +124,14 @@ h2 {
 #test {
 		margin:5px;
 }
+
+body{
+
+	background-image: url('../images/Background001.png');
+	background-size: cover;                      
+    background-repeat:   no-repeat;
+    / *background-position: center center;  * /   
+
+    
+}
+*/

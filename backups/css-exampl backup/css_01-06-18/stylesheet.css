@@ -1,0 +1,88 @@
+.row {
+	/*background-color:lavender;*/
+}
+
+.col1 {
+	margin:3px;
+	min-height:300px;
+	text-align:center;
+	background-color:silver;
+}
+
+.col2 {
+	margin:3px;
+	min-height:300px;
+	text-align:center;
+	background-color:silver;
+}
+
+.col3 {
+	margin:3px;
+	min-height:300px;
+	text-align:center;
+	background-color:silver;
+}
+
+
+.col4 {
+	margin:3px;
+	min-height:300px;
+	text-align:center;
+	background-color:silver;
+}
+
+.col5 {
+	margin:3px;
+	min-height:300px;
+	text-align:center;
+	background-color:silver;
+}
+
+.col6 {
+	margin:3px;
+	min-height:300px;
+	text-align:center;
+	background-color:silver;
+}
+
+.col7 {
+	margin:3px;
+	min-height:300px;
+	text-align:center;
+	background-color:silver;
+}
+
+.colinside {
+		
+	min-height:100px;
+	text-align:center;
+	background-color:yellow;
+}
+
+input {
+	margin:5px;
+}
+
+.marg {
+	margin-top:5px;
+	
+}
+
+/*
+div {
+	margin:5px;
+}
+*/
+
+h2 {
+	margin:3px;
+}
+
+
+#toolbar_test1 {
+		margin:5px;
+}
+
+#test {
+		margin:5px;
+}
