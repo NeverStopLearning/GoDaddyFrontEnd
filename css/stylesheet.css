@@ -6,19 +6,63 @@
 
 header{
 	/*background-image: url('../images/Background001.png');*/
-	background-image: url('../images/image1.jpg');
-	background-size: contain;
+	/*background-image: url('../images/image1.jpg');*/
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url('../images/image1.jpg');
+	background-size: cover;
+	background-repeat:   no-repeat;
+	/*height: 76rem;*/
 	height: 100rem;
+	background-position: center;
+
+
 }
 
 
 
+body{
+	font-family: tahoma;
+
+}
+
+.row{
+
+	max-width: 1140px;
+	margin:0 auto;
+}
 
 
 
+.main-nav{
+
+	float: right;
+	list-style: none;
+	margin-top: 40px;
+}
+
+.main-nav li{
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.main-nav li a{
+	color: white;
+	text-decoration: none;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.main-nav li a:hover {
+	color: #e67e22;
+}
 
 
-
+.logo img{
+	height: 100px;
+	float:left;
+	margin-top: 20px;
+	/*margin-left: 60px; */
+	
+}
 
 
 
