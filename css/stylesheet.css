@@ -15,9 +15,40 @@ header{
 	/*height: 100rem;*/
 	/*background-position: center;*/ /*I like it without but they might like it with. Show both.*/
 
+	background-attachment: fixed; /* adds 'paralax'. lock the img in place during scroll */
 
 }
 
+.welcome-msg{
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-20%,-50%); /*vertical, horizontal*/
+} 
+
+.welcome-msg h1{
+	color: white;
+}
+
+.btn{
+	border: 1px solid #e67e22;
+	padding: 10px 30px;
+	color: #e67e22; 
+	text-decoration: none;
+	border-radius: 10px;
+	margin-right: 2%;
+}
+
+.welcome-btns{
+	margin-top: 2%; 
+}
+
+.btn-full:hover, .btn-half:hover {
+	color: white;
+	background-color: #e67e22;
+	transition: all 0.2s ease-in;
+}
 
 
 body{
