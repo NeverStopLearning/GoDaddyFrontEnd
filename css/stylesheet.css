@@ -107,7 +107,7 @@ body{
 	margin-bottom:3%;
 }
 
-.section1 h3{
+.section h3{
 	margin-top:80px;
 	margin-bottom: 30px;
 }
@@ -177,8 +177,59 @@ h3:after{
 }
 
 .section2 {
-	margin-top:2%;
+	margin-top:5%;
 }
+
+
+.section3-photo img{
+
+	width: 50%;
+	margin-left: 30%;
+	margin-top: 10%;
+}
+
+.section3-steps{
+	margin-top: 10%;
+}
+
+.section3-steps div div{
+	border:3px solid #e67e22;
+	display: inline-block;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	line-height: 45px;
+
+	font-size: 15px;
+
+
+}
+
+.section3-btns{
+	display: inline-block;
+}
+
+.section3-btns img{
+	height: 40px;
+	margin-top: 15%;
+	margin-right: 20px;	
+}
+
+
+.clearfix{ /*clear fix will fix the hidden space that is aquired by the image transitions.*/
+	zoom:1;
+}
+
+.clearfix:after{ /* look into the effects of these 2 classes. I want to see the fix happen */
+	visibility: hidden;
+	content: ".";
+	height: 0;
+	display: block;
+	clear: both;
+}
+
+
 
 
 
