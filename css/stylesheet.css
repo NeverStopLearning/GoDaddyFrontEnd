@@ -107,7 +107,7 @@ body{
 	margin-bottom:3%;
 }
 
-.section h3{
+.section h3{ /* sections 1 and 3 currently*/
 	margin-top:80px;
 	margin-bottom: 30px;
 }
@@ -228,6 +228,33 @@ h3:after{
 	display: block;
 	clear: both;
 }
+
+
+
+
+.section4 img{ /* All that's needed to make the img fit is the 'width=100%' */
+	width: 100%;
+	margin-top: 15%;
+}
+
+
+.section4 i{
+
+	color: #e67e22;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
