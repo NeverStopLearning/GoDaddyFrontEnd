@@ -1,0 +1,365 @@
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+header{
+	/*background-image: url('../images/Background001.png');*/
+	/*background-image: url('../images/image1.jpg');*/
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url('../images/image1.jpg');
+	background-size: cover;
+	background-repeat:   no-repeat;
+	height:100vh;
+	/*height: 76rem;*/
+	/*height: 100rem;*/
+	/*background-position: center;*/ /*I like it without but they might like it with. Show both.*/
+
+	background-attachment: fixed; /* adds 'paralax'. lock the img in place during scroll */
+
+}
+
+.welcome-msg{
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-20%,-50%); /*vertical, horizontal*/
+} 
+
+.welcome-msg h1{
+	color: white;
+}
+
+.btn{
+	border: 1px solid #e67e22;
+	padding: 10px 30px;
+	color: #e67e22; 
+	text-decoration: none;
+	border-radius: 10px;
+	margin-right: 2%;
+}
+
+.welcome-btns{
+	margin-top: 2%; 
+}
+
+.btn-full:hover, .btn-half:hover {
+	color: white;
+	background-color: #e67e22;
+	transition: all 0.2s ease-in;
+}
+
+
+body{
+	font-family: tahoma;
+
+	
+	overflow-x: hidden; /* fix for some overflow I couldn't find. good tip/trick */
+
+}
+
+.row{
+
+	max-width: 90% /*1140px*/;
+	margin:0 auto;
+}
+
+
+
+.main-nav{
+
+	float: right;
+	list-style: none;
+	margin-top: 40px;
+}
+
+.main-nav li{
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.main-nav li a{
+	color: white;
+	text-decoration: none;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.main-nav li a:hover {
+	color: #e67e22;
+	border-bottom: 2px solid #e67e22;
+	transition: all 0.2s ease-in;
+	padding: 2px 0;
+}
+
+
+.logo img{
+	height: 100px;
+	float:left;
+	margin-top: 20px;
+	/*margin-left: 60px; */
+	
+}
+
+
+
+.ipsum{
+	margin-left: 20%;
+	width: 70%;
+	margin-bottom:3%;
+}
+
+.section h3{ /* sections 1 and 3 currently*/
+	margin-top:80px;
+	margin-bottom: 30px;
+}
+
+
+h3:after{
+	width: 100px;
+	height: 2px;
+	background-color: #e67e22;
+	display: block;
+	content: " ";
+	margin:0 auto;
+	margin-top: 30px;
+}
+
+
+.arranging{
+	text-align: left;
+}
+
+.section1 h4{
+
+	margin-left: 30%;
+}
+
+
+.section1 i{
+	color: #e67e22;
+	font-size: 30px;
+	margin-left: 35%;
+}
+
+
+.section2-showcase{
+
+	list-style: none;
+	width: 100%; /* what does this do? */
+
+}
+
+.section2-showcase li {
+
+	display: block;
+	width: 25%;
+	float: left;
+}
+
+.section2-photo{
+	width: 100%;
+	margin:0;
+	overflow:hidden;
+}
+
+.section2-photo img{
+	width: 100%;
+	height:auto;
+
+	transform: scale(1.15);
+	transition: transform 0.5s;
+}
+
+
+.section2-photo img:hover{
+
+	transform: scale(1.05);
+	
+}
+
+.section2 {
+	margin-top:5%;
+}
+
+
+.section3-photo img{
+
+	width: 50%;
+	margin-left: 30%;
+	margin-top: 10%;
+}
+
+.section3-steps{
+	margin-top: 10%;
+}
+
+.section3-steps div div{
+	border:3px solid #e67e22;
+	display: inline-block;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	line-height: 45px;
+
+	font-size: 15px;
+
+
+}
+
+.section3-btns{
+	display: inline-block;
+}
+
+.section3-btns img{
+	height: 40px;
+	margin-top: 15%;
+	margin-right: 20px;	
+}
+
+
+.clearfix{ /*clear fix will fix the hidden space that is aquired by the image transitions.*/
+	zoom:1;
+}
+
+.clearfix:after{ /* look into the effects of these 2 classes. I want to see the fix happen */
+	visibility: hidden;
+	content: ".";
+	height: 0;
+	display: block;
+	clear: both;
+}
+
+
+
+
+.section4 img{ /* All that's needed to make the img fit is the 'width=100%' */
+	width: 100%;
+	margin-top: 15%;
+}
+
+
+.section4 i{
+
+	color: #e67e22;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.row {
+	/ *background-color:lavender;* /
+}
+
+.col1 {
+	margin:3px;
+	min-height:300px;
+	text-align:center;
+	background-color:silver;
+}
+
+.col2 {
+	margin:3px;
+	min-height:300px;
+	text-align:center;
+	background-color:silver;
+}
+
+.col3 {
+	margin:3px;
+	min-height:300px;
+	text-align:center;
+	background-color:silver;
+}
+
+
+.col4 {
+	margin:3px;
+	min-height:300px;
+	text-align:center;
+	background-color:silver;
+}
+
+.col5 {
+	margin:3px;
+	min-height:300px;
+	text-align:center;
+	background-color:silver;
+}
+
+.col6 {
+	margin:3px;
+	min-height:300px;
+	text-align:center;
+	background-color:silver;
+}
+
+.col7 {
+	margin:3px;
+	min-height:300px;
+	text-align:center;
+	background-color:silver;
+}
+
+.colinside {
+		
+	min-height:100px;
+	text-align:center;
+	background-color:yellow;
+}
+
+input {
+	margin:5px;
+}
+
+.marg {
+	margin-top:5px;
+	
+}
+
+/ *
+div {
+	margin:5px;
+}
+* /
+
+h2 {
+	margin:3px;
+}
+
+
+#toolbar_test1 {
+		margin:5px;
+}
+
+#test {
+		margin:5px;
+}
+
+body{
+
+	background-image: url('../images/Background001.png');
+	background-size: cover;                      
+    background-repeat:   no-repeat;
+    / *background-position: center center;  * /   
+
+    
+}
+*/

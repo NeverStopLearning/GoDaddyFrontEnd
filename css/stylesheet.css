@@ -54,6 +54,8 @@ header{
 body{
 	font-family: tahoma;
 
+	overflow-x: hidden; /* used to fix overflow I cant find. noticed in section5 */
+
 }
 
 .row{
@@ -245,8 +247,22 @@ h3:after{
 
 
 
+.section5 {
+	margin-top: 10%;
+	background-image: url("../images/ipImg4.jpg");
+	background-position: center;
+	padding-top: 10%;
+	padding-bottom: 10%;
+
+}
 
 
+.section5 cite img{
+	/*width: 100%;*/
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
 
 
 
