@@ -236,7 +236,7 @@ h3:after{
 
 .section4 img{ /* All that's needed to make the img fit is the 'width=100%' */
 	width: 100%;
-	margin-top: 15%;
+	margin-top: 10%;
 }
 
 
@@ -249,11 +249,21 @@ h3:after{
 
 .section5 {
 	margin-top: 10%;
-	background-image: url("../images/ipImg4.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url("../images/ipImg4.jpg");
 	background-position: center;
-	padding-top: 10%;
+	padding-top: 5%;
 	padding-bottom: 10%;
 
+	color: white;
+	background-attachment: fixed; /* adds 'paralax'. lock the img in place during scroll */
+	
+}
+
+.section5 p{
+	
+	line-height: 25px;
+	text-align: justify-all; /* what is justify and "-all */
+	margin-top: 10%;
 }
 
 
@@ -262,6 +272,8 @@ h3:after{
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
+	margin-right: 10px;
+
 }
 
 
