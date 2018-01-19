@@ -426,19 +426,24 @@
         </div>
 
         <div class="row gap">
-          <div class="col-md-4">
-            <input type="text" placeholder="Enter Name" id="name" name="name" class="form-control"> <br>
-            <input type="email" placeholder="Enter Email" id="email" name="email" class="form-control"> <br>
-            <input type="password" placeholder="Password" class="form-control"> <br>
 
-          </div>
+        	<form class="form-horizontal" action="" method="post">
+					
+	          <div class="col-md-4">
+	            <input type="text" placeholder="Enter Name" id="name" name="name" class="form-control"> <br>
+	            <input type="email" placeholder="Enter Email" id="email" name="email" class="form-control"> <br>
+	            <input type="password" placeholder="Password" class="form-control"> <br>
 
-          <div class="col-md-8">
-            <textarea class="form-control" rows="8" id="message" name="message" placeholder="Comment"></textarea>
+	          </div>
 
-            <input type="submit" name="submit" class="btn btn-warning btn-block" value="send"></input>
-            <!-- <button class="btn btn-warning btn-block">Submit</button> -->
-          </div>
+	          <div class="col-md-8">
+	            <textarea class="form-control" rows="8" id="message" name="message" placeholder="Comment"></textarea>
+
+	            <input type="submit" name="submit" class="btn btn-warning btn-block" value="send"></input>
+	            <!-- <button class="btn btn-warning btn-block">Submit</button> -->
+	          </div>
+	          
+          </form>	
 
         </div>
 
